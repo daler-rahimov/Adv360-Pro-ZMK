@@ -52,16 +52,7 @@
       display-name = "Yellow";
       status = "reserved";
     };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-        combo_alt_shift_to_win_shift {
-            timeout-ms = <30>;
-            key-positions = <36 46>;  // LALT and LSHFT
-            bindings = <&macro_win_shift>;
-        };
-    };
+  };
 
     keymap {
         compatible = "zmk,keymap";
